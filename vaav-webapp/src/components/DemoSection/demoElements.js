@@ -60,24 +60,8 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #fff;
-  font-size: 14px;
-  line-height: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 16px;
-`;
-export const TopLine1 = styled.p`
-  color: #fff;
-  font-size: 14px;
-  line-height: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 16px;
-`;
-export const TopLine2 = styled.p`
-  color: #fff;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 16px;
   font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 16px;

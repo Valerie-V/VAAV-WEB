@@ -15,7 +15,6 @@ import { BtnLink, BtnWrap,
   Subtitle,
   TextWrapper,
   TopLine,
-  TopLine1
 } from './demoElements'
 
 const DemoSection = ({
@@ -33,7 +32,7 @@ const DemoSection = ({
               <TextWrapper>
                 <Heading lightText={lightText}>{headLine1}</Heading>
                 <TopLine>{topLine}</TopLine>
-                <TopLine1>{topLine1}</TopLine1>
+                <TopLine>{topLine1}</TopLine>
                 <TopLine>{topLine2}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{id ==='partner' ? <FontAwesomeIcon icon={faCircle} color='#034B03' /> : null } {description}</Subtitle>
