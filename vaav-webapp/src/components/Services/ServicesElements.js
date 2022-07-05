@@ -18,6 +18,9 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 768px) {
     height: 1500px;
   }
+  @media screen and (max-width: 480px) {
+    height: 1300px;
+  }
 `;
 
 export const ServicesHeaderContainer = styled.div`
@@ -124,6 +127,7 @@ export const ServicesP = styled.p`
 
 export const ServicesP1 = styled.p`
   font-size: 1.3rem;
+  text-align: justify;
   
   max-width: 600px;
 `;

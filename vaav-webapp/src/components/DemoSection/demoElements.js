@@ -9,6 +9,9 @@ export const DemoContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
+  @media screen and (max-width: 480px) {
+    padding: 30px 0;
+  }
 `;
 
 export const DemoWrapper = styled.div`
@@ -65,6 +68,7 @@ export const TopLine = styled.p`
   font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 16px;
+  text-align: justify;
   @media screen and (max-width: 780px) {
     font-size: 12px;
     line-height: 12px;
