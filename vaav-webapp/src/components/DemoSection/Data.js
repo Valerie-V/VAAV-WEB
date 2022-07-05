@@ -1,5 +1,5 @@
 import imgOne from '../../assests/icons/signup.svg'
-import imgTwo from '../../assests/icons/img-four.svg'
+import imgTwo from '../../assests/icons/img-thirteen.jpg'
 import imgThree from '../../assests/icons/img-nine.jpg'
 export const homeObjOne = {
   id: 'signup',
@@ -48,7 +48,7 @@ export const homeObjTwo = {
   buttonLabel: "Let's get started",
   imgStart: false,
   img: imgTwo,
-  alt: 'Lab',
+  alt: 'Lab', 
   dark: true,
   primary: true,
   darkText: false
