@@ -27,8 +27,8 @@ const Sidebar = ({isOpen, toggle, currentUser}) => {
           <SidebarLink  to="about" onClick={toggle}>
             About Us
           </SidebarLink>
-          <SidebarLink  to="pricing" onClick={toggle}>
-            Pricing
+          <SidebarLink  to="product" onClick={toggle}>
+            Product
           </SidebarLink>
           <SidebarLink  to="partner" onClick={toggle}>
             Partner With Us

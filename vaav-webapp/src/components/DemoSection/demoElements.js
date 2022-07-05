@@ -59,12 +59,27 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #000;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+`;
+export const TopLine1 = styled.p`
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+`;
+export const TopLine2 = styled.p`
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
   margin-bottom: 16px;
 `;
 
@@ -127,4 +142,11 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  border-radius: 5%;
+`;
+
+export const Text = styled.span`
+  text-align: center;
+  color: #266041;
+  font-size: 14px; 
 `;

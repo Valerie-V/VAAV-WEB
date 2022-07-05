@@ -37,7 +37,7 @@ const HeroSection = () => {
         </HeroP>
         {/* <FilterTextbox /> */}
         <HeroBtnWrapper>
-          <Button to='about' onMouseEnter={onHover}
+          <Button to='contact' onMouseEnter={onHover}
             onMouseLeave={onHover}>
             Get Started {hover ? <Arrow><FontAwesomeIcon icon={faArrowRight} /></Arrow> : <Arrow><FontAwesomeIcon icon={faChevronRight} /></Arrow>}
           </Button>

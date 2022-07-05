@@ -14,11 +14,12 @@ import { BtnLink, BtnWrap,
   ImgWrap,
   Subtitle,
   TextWrapper,
-  TopLine
+  TopLine,
+  TopLine1
 } from './demoElements'
 
 const DemoSection = ({
-  lightBg, id, imgStart, topLine, lightText, headLine, darkText,
+  lightBg, id, imgStart, topLine, topLine1, topLine2, lightText, headLine, headLine1, darkText,
   description, desc1, desc2, buttonLabel, img, alt, primary, dark, dark2
 }) => {
 
@@ -30,11 +31,14 @@ const DemoSection = ({
           <DemoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
+                <Heading lightText={lightText}>{headLine1}</Heading>
                 <TopLine>{topLine}</TopLine>
+                <TopLine1>{topLine1}</TopLine1>
+                <TopLine>{topLine2}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{id ==='partner' ? <FontAwesomeIcon icon={faCircle} color='#034B03' /> : null } {description}</Subtitle>
                 <Subtitle darkText={darkText}>{id ==='partner' ? <FontAwesomeIcon icon={faCircle} color='#034B03' /> : null } {desc1}</Subtitle>
-                <Subtitle darkText={darkText}>{id ==='partner' ? <FontAwesomeIcon icon={faCircle} color='#034B03' /> : null } {desc2}</Subtitle>
+                <Subtitle darkText={darkText}>{id ==='partner' ? <FontAwesomeIcon icon={faCircle} color='#000026' /> : null } {desc2}</Subtitle>
                 <BtnWrap> {
                   id !== 'signup' ? 
                   <Button
