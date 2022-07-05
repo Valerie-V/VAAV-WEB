@@ -7,7 +7,7 @@ export const ContactContainer = styled.div`
   background: '#f9f9f9';
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 30px 0;
   }
 `;
 
@@ -23,6 +23,9 @@ export const ContactWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 750px;
+  }
+  @media screen and (max-width: 580px) {
+    height: 1200px;
   }
 `
 
@@ -101,6 +104,10 @@ export const BtnLink = styled(LinkR)`
 export const ImgWrap = styled.div`
   max-width: 100%;
   height: 70%;
+
+  @media screen and (max-width: 780px) {
+    height: 64%;
+  }
 `;
 
 export const Img = styled.img`
@@ -118,8 +125,13 @@ export const FormWrap = styled.div`
   margin-right: auto;
   margin-left: auto;
 
-  @media screen and (max-width: 400px) {
-    height: 80%;
+
+  @media screen and (max-width: 980px) {
+    width: 420px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 350px;
   }
 `;
 
@@ -218,6 +230,11 @@ export const Container = styled.div`
   padding: 10px 20px;
   background: #e9efea;
   align-items: left;
+
+  @media screen and (max-width: 780px) {
+    height: 35%;
+    margin-bottom: 40px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -228,8 +245,8 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: #266041;
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 780px) {
+    font-size: 18px;
   }
 `;
 
@@ -238,6 +255,9 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 22px;
   color: #266041;
+  @media screen and (max-width: 780px) {
+    font-size: 14px;
+  }
 `;
 
 export const Text = styled.span`
