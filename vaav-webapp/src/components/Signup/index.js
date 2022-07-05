@@ -95,10 +95,11 @@ class SignUp extends React.Component {
                 <FormLabel htmlFor='for'>Category</FormLabel>
                 <Dropdown type='text' name='category' value={category} onChange={this.handleSelect} required>
                   <Option value="Click to see Categories" />
-                  <Option value="Clinic" />
-                  <Option value="Diagnostic Center" />
-                  <Option value="Health Insurance" />
-                  <Option value="Pharmaceutical" />                 
+                  <Option value="Personal" />
+                  <Option value="Household" />
+                  <Option value="Campus" />
+                  <Option value="Rural Community" />
+                  <Option value="Education" />                 
                 </Dropdown>
                 {/* <FormInput type='text' name='category' value={category} onChange={this.handleChange} required /> */}
                 <FormLabel htmlFor='for'>Specialization</FormLabel>
