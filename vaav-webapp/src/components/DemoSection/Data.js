@@ -6,10 +6,18 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'JOIN OUR TEAM',
-  headLine: 'Creating an account is extremely easy',
-  description: 'Get everything set up and ready in under 10 minutes.' +
-    "All you need to do is add you information and you're ready to go.",
+  headLine1: 'Our Solution',
+  topLine: `Our projects offers a unique approach to off grid and micro grid electricity by providing an affordable
+  medium for energy storage and usage in the form of a portable 500/1000 Wh electrical system that can be used either
+   by individuals or households to meet the daily energy demand.`,
+  topLine1: `This solution called the PowerCube aims to make energy 
+  access easier in rural and suburban areas not just in terms of its affordability and reliability but also by the ability of 
+  the PowerCube to be charged by both renewable energy sources and conventional AC means (if needed).`,
+  topLine2: `Furthermore, we strongly believe as a team that having a thriving and enduring industry requires a sturdy educational 
+  system that embodies excellence, research, and innovation.We will organize Campus Ambassadorial And internship programs as 
+  well as STEM Awareness and Summer Bootcamp events.`,
+  headLine: '',
+  description: '',
   desc1: '',
   desc2: '',
   buttonLabel: 'Start Now',
@@ -27,16 +35,13 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headLine1: 'Our Solution',
-  topLine: `Our projects offers a unique approach to off grid and micro grid electricity by providing an affordable
-  medium for energy storage and usage in the form of a portable 500/1000 Wh electrical system that can be used either
-   by individuals or households to meet the daily energy demand.`,
-  topLine1: `This solution called the PowerCube aims to make energy 
-  access easier in rural and suburban areas not just in terms of its affordability and reliability but also by the ability of 
-  the PowerCube to be charged by both renewable energy sources and conventional AC means (if needed).`,
-  topLine2: `Furthermore, we strongly believe as a team that having a thriving and enduring industry requires a sturdy educational 
-  system that embodies excellence, research, and innovation.We will organize Campus Ambassadorial And internship programs as 
-  well as STEM Awareness and Summer Bootcamp events.`,
+  headLine1: 'Our Product',
+  topLine: `At VAAV, we are engineering a better energy future for Africa by providing clean,
+  affordable, and reliable energy as a service to university students, SMEs, private individuals, 
+  low-income households, and organizations.`,
+  topLine1: `Our novel product, PowerCube is a portable 500Whr energy system which aims to provide a clean, 
+  affordable, and reliable power supply for university students, small-scale businesses (SMEs), 
+  individuals, & organizations.`,
   description: '',
   desc1: '',
   desc2: '',

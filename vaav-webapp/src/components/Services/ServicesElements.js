@@ -76,7 +76,7 @@ export const ServicesIcon = styled.img`
   height: 100%;
   width: 100%;
   margin-bottom: 10px;
-
+  border-radius: 5%;
 
   @media screen and (max-width: 1000px) {
     
