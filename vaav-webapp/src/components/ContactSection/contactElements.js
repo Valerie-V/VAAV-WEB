@@ -9,6 +9,9 @@ export const ContactContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 30px 0;
   }
+  @media screen and (max-width: 480px) {
+    padding: 20px 0;
+  }
 `;
 
 export const ContactWrapper = styled.div`
@@ -131,7 +134,8 @@ export const FormWrap = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    width: 350px;
+    width: 380px;
+    height: 110%;
   }
 `;
 
@@ -234,6 +238,10 @@ export const Container = styled.div`
   @media screen and (max-width: 780px) {
     height: 35%;
     margin-bottom: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 35%;
+    margin-bottom: 20px;
   }
 `;
 
