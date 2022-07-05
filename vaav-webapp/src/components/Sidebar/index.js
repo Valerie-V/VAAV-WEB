@@ -33,6 +33,9 @@ const Sidebar = ({isOpen, toggle, currentUser}) => {
           <SidebarLink  to="partner" onClick={toggle}>
             Partner With Us
           </SidebarLink>
+          <SidebarLink  to="contact" onClick={toggle}>
+            Contact Us
+          </SidebarLink>
           {
             currentUser ?
               null

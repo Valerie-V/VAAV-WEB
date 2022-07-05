@@ -3,8 +3,8 @@ import HeroSection from '../../components/HeroSection';
 import DemoSection from '../../components/DemoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../../components/DemoSection/Data';
 import Services from '../../components/Services';
-import Footer from '../../components/Footer';
-import Contact from '../../components/Contact';
+import Footer from '../../components/Footer'
+import ContactSection from '../../components/ContactSection';
 const Home = ({toHomePage}) => {
   // window.location.reload(toHomePage);
  
@@ -15,7 +15,7 @@ const Home = ({toHomePage}) => {
       <DemoSection {...homeObjTwo}/>
       <DemoSection {...homeObjThree}/>
       <DemoSection {...homeObjOne}/>
-      <Contact />
+      <ContactSection />
       <Footer />
       
     </>
