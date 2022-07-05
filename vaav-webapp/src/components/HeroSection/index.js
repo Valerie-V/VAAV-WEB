@@ -3,7 +3,6 @@ import { faArrowRight, faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Video from '../../assests/videos/video.mp4';
-import  {FilterTextbox}  from '../Searchbar/searchbar.jsx';
 import { Button } from '../Button/ButtonElements';
 import { 
   HeroContainer,

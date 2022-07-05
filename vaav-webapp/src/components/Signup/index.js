@@ -1,7 +1,6 @@
 import React from 'react'
-
 import Video from '../../assests/videos/video.mp4';
-import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormLabelRequired, FormWrap, HeroBg, Icon, ImgBg, Text } from './SignupElements';
+import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, HeroBg, Icon, ImgBg, Text } from './SignupElements';
 import { Dropdown, Option } from '../../components/Dropdown'
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
