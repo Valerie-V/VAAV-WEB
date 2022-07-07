@@ -136,6 +136,7 @@ export const FormWrap = styled.div`
   @media screen and (max-width: 480px) {
     width: 380px;
     height: 110%;
+    margin-left: 0px
   }
 `;
 
@@ -178,8 +179,8 @@ export const Form = styled.form`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 400px) {
-    width: 80%;
-    padding: 20px 20px;
+    width: 90%;
+    padding: auto;
   }
 `;
 

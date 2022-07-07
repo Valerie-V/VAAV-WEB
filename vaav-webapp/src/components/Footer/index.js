@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FooterContainer, FooterLinkItems, FooterLinksContainer, FooterLinksWrapper, FooterWrapper, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './footerElements'
 
@@ -59,19 +59,23 @@ const Footer = () => {
             <WebsiteRights>VAAV © {new Date().getFullYear() } All rights reserved.
               </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank'
+              {/* <SocialIconLink href='/' target='_blank'
               aria-label="Facebook">
                 <FontAwesomeIcon icon={faFacebook} color='white' />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank'
+              </SocialIconLink> */}
+              {/* <SocialIconLink href='/' target='_blank'
               aria-label="Instragram">
                 <FontAwesomeIcon icon={faInstagram} color='white' />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank'
+              </SocialIconLink> */}
+              {/* <SocialIconLink href='/' target='_blank'
               aria-label="Youtube">
                 <FontAwesomeIcon icon={faYoutube} color='white' />
+              </SocialIconLink> */}
+              <SocialIconLink href='https://www.linkedin.com/company/vaav-innovative-solutions/' target='_blank'
+              aria-label="Linkedin">
+                <FontAwesomeIcon icon={faLinkedin} color='white' />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank'
+              <SocialIconLink href='https://twitter.com/VAAVinnovative?t=PIuSCIEVXBfx1fDrB81Rtw&s=08' target='_blank'
               aria-label="Twitter">
                 <FontAwesomeIcon icon={faTwitter} color='white' />
               </SocialIconLink>
