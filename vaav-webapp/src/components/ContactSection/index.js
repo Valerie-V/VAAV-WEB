@@ -86,11 +86,11 @@ class ContactSection extends React.Component {
                     <Form action='#' onSubmit={this.handleSubmit}>
                       <FormH1>Contact us today</FormH1>
                       <FormLabel htmlFor='for'>Name</FormLabel>
-                      <FormInput type='email' name='name' value={this.state.name} onChange={this.handleChange} required />
+                      <FormInput type='text' name='name' value={this.state.name} onChange={this.handleChange} required />
                       <FormLabel htmlFor='for'>Email</FormLabel>
                       <FormInput type='email' name='email' value={this.state.email} onChange={this.handleChange} required />
                       <FormLabel htmlFor='for'>Message</FormLabel>
-                      <FormInputMessage type='email' name='message' value={this.state.message} onChange={this.handleChange} required />
+                      <FormInputMessage type='text' name='message' value={this.state.message} onChange={this.handleChange} required />
                       <FormButton type='submit'>Submit</FormButton>
                       
                     </Form>
