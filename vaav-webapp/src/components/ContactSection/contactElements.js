@@ -28,7 +28,8 @@ export const ContactWrapper = styled.div`
     height: 750px;
   }
   @media screen and (max-width: 580px) {
-    height: 1200px;
+    height: 1000px;
+    align-items: center
   }
 `
 
@@ -42,7 +43,9 @@ export const ContactRow = styled.div`
 @media screen and (max-width: 768px) {
   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col2' 'col1 col1'`:
   `'col1 col1' 'col2 col2'`)};
+  align-items: center
   }
+  
 `
 
 export const Column1 = styled.div`
@@ -53,8 +56,12 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 0 5px;
   grid-area: col2;
+
+  @media screen and (max-width: 580px) {
+    align-items: left
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -134,9 +141,8 @@ export const FormWrap = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    width: 380px;
+    width: 340px;
     height: 110%;
-    margin-left: 0px
   }
 `;
 
@@ -162,7 +168,7 @@ export const FormContent = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 480px) {
-    padding: 10px;
+    
   }
 `;
 
