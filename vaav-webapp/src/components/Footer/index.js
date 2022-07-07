@@ -1,6 +1,12 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { 
+  //faFacebook, 
+  //faInstagram, 
+  faLinkedin, 
+  faTwitter, 
+  //faYoutube
+} from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FooterContainer, FooterLinkItems, FooterLinksContainer, FooterLinksWrapper, FooterWrapper, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './footerElements'
 
